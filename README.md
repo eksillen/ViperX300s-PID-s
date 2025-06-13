@@ -34,6 +34,9 @@ roslaunch /home/user/interbotix_ws_real/src/interbotix_ros_manipulators/interbot
 
 roslaunch interbotix_xsarm_gazebo xsarm_gazebo.launch robot_model:=vx300s use_sim_time:=true use_position_effort_controllers:=true
 
+# (Go to this link for a standard setup must be done before doing these steps)
+https://docs.trossenrobotics.com/interbotix_xsarms_docs/ros_interface/ros1/software_setup.html
+
 
 
 # Note that the PID script of the interbotix_ws_sim so you need to navigate to that directory and run 
